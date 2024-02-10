@@ -1,0 +1,5 @@
+<div class="border rounded p-5 text-center">
+    <p class="fs-5 mb-0">1.00 {{conversionObj.from}} = {{rate || 'XX.XXX'}} {{to}}</p>
+    <p class="fs-5 mb-0">{{conversionObj.amount}} {{conversionObj.from}} = {{conversionObj.amount && rate ? (rate *
+        conversionObj.amount) : 'XX.XX'}} {{to}}</p>
+</div>

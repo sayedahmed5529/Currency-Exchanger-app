@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    padding: .5rem 1rem;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    border-bottom: 1px solid;
+    margin-bottom: 2rem;
+    z-index: 2;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    a {
+        font-size: 2rem;
+        
+    }
+}
+
+.button-group {
+    display: flex;
+    gap: 1rem;
+}

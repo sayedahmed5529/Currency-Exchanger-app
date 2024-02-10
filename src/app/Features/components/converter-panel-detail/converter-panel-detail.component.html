@@ -1,0 +1,7 @@
+<div class="border p-4 rounded mt-3">
+  <canvas *ngIf="!error" baseChart class="chart" [data]="data" [options]="chartOptions" [type]="chartType"></canvas>
+
+  <div *ngIf="error" class="alert alert-danger mt-3">
+      {{error}}
+  </div>
+</div>
